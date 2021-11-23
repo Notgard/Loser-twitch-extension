@@ -1,0 +1,10 @@
+.number{
+    color: #960896;
+    font-size: 17px;
+    font-weight: bold;
+    width: fit-content;
+    display: inline;
+    margin-right: 3px;
+    border-radius:15%;
+    background: linear-gradient(90deg, rgba(255,162,109,1) 0%, rgba(223,211,34,1) 27%, rgba(226,161,31,1) 52%, rgba(238,121,63,1) 74%);
+}

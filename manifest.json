@@ -1,0 +1,18 @@
+{
+  "name": "Twitch Loser Tracker",
+  "manifest_version": 2,
+  "version": "1.0",
+  "icons": {
+    "16": "icons/draft2-16x16.png",
+    "48": "icons/draft2-48x48.png",
+    "128": "icons/draft2-128x128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitch.tv/*"],
+      "js": ["src/js/loser.js"],
+      "css": ["src/css/loser.css"]
+    }
+  ],
+  "description": "Track people in your follow list and mock them for being more poor than another one of their fellow streamers."
+}
